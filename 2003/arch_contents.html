@@ -1,0 +1,377 @@
+<html>
+ <head>
+  <title>rpg2003.chm</title>
+  <LINK rel="Stylesheet" type="text/css" href="arch_css.css">
+</head>
+
+<body onload="setInterval('getLoc()', 500);">    
+<script>
+var lastDoc;
+var contents = 
+[
+ ["RPG Maker 2003", "rmindex.htm", "1", 
+   ["Overview", "overview.htm", "1", 
+     ["Editor", "editor.htm", "1"], 
+     ["Game", "game.htm", "1", 
+       ["Video Options", "videooptions.htm", "1"]]], 
+   ["Main Editor", "maineditor.htm", "1", 
+     ["Main Editor Contents", "maineditorcontents.htm", "1", 
+       ["Menu Bar", "menubar.htm", "1", 
+         ["Menu Bar Contents", "menubarcontents.htm", "1"], 
+         ["Project", "project.htm", "1"], 
+         ["Map", "map.htm", "1"], 
+         ["Tools", "tools.htm", "1"], 
+         ["Game", "gamemenu.htm", "1"], 
+         ["Help", "help.htm", "1"]], 
+       ["Toolbar", "toolbar.htm", "1", 
+         ["Toolbar Contents", "toolbarcontents.htm", "1"]], 
+       ["Supplementary Features", "supplementaryfeaturesa.htm", "1", 
+         ["Search", "search.htm", "1"], 
+         ["BGM Test", "bgmtest.htm", "1"], 
+         ["Resource Manager", "resourcemanager.htm", "1"], 
+         ["Begin Playtest", "beginplaytest.htm", "1"], 
+         ["Create Game Installer", "creategameinstaller.htm", "1"]]]], 
+   ["Project", "projecttoc.htm", "1", 
+     ["Project Summary", "projectsummary.htm", "1"], 
+     ["Create Project", "createproject.htm", "1"], 
+     ["Project Controls", "projectcontrols.htm", "1"]], 
+   ["Map", "maptoc.htm", "1", 
+     ["Map Summary", "mapsummary.htm", "1"], 
+     ["Map Tiles", "maptiles.htm", "1"], 
+     ["Creating Map Data", "creatingmapdata.htm", "1"], 
+     ["Managing Map Data", "managingmapdata.htm", "1"], 
+     ["Saving Map Data", "savingmapdata.htm", "1"], 
+     ["Map Editing", "mapediting.htm", "1"], 
+     ["Areas", "areas.htm", "1"], 
+     ["Map Properties", "mapproperties.htm", "1", 
+       ["Map Properties", "mappropertiesb.htm", "1"], 
+       ["Map Editing Tools", "mapeditingtools.htm", "1"], 
+       ["Area Creation", "32b5cc5.htm", "1"]]], 
+   ["Database", "database.htm", "1", 
+     ["Database Settings", "databasesettings.htm", "1"], 
+     ["Actors", "dactors.htm", "1"], 
+     ["Classes", "dclasses.htm", "1"], 
+     ["Skills", "dskills.htm", "1"], 
+     ["Items", "ditems.htm", "1"], 
+     ["Enemies", "denemies.htm", "1"], 
+     ["Troops", "dtroops.htm", "1"], 
+     ["Elements", "delements.htm", "1"], 
+     ["States", "dstates.htm", "1"], 
+     ["Animations", "danimations.htm", "1"], 
+     ["Animations 2", "danimations2.htm", "1"], 
+     ["Battle Screen", "dbattlescreen.htm", "1"], 
+     ["Terrain", "dterrain.htm", "1"], 
+     ["Tilesets", "dtilesets.htm", "1"], 
+     ["Terms", "dterms.htm", "1"], 
+     ["System", "dsystem.htm", "1"], 
+     ["System 2", "dsystem2.htm", "1"], 
+     ["Common Events", "dcommonevents.htm", "1"], 
+     ["Supplementary Windows", "supplementarywindowsb.htm", "1", 
+       ["Experience Curve", "experiencecurve.htm", "1"], 
+       ["Parameter Curve", "parametercurve.htm", "1"], 
+       ["Attack Pattern", "attackpattern.htm", "1"], 
+       ["Battle Test", "battletest.htm", "1"], 
+       ["Frame View Editing", "frameviewediting.htm", "1"], 
+       ["SE and Flash Timing", "seandflashtiming.htm", "1"], 
+       ["Copy/Clear Cells", "copyclearcells.htm", "1"], 
+       ["Tweening", "tweening.htm", "1"], 
+       ["Cell Batch", "cellbatch.htm", "1"], 
+       ["Tileset Properties", "tilesetproperties.htm", "1"]]], 
+   ["Events", "events.htm", "1", 
+     ["Events Summary", "eventssummary.htm", "1"], 
+     ["Events Setup Notes", "eventssetupnotes.htm", "1"], 
+     ["Event Content", "eventcontent.htm", "1"], 
+     ["Switches", "switches.htm", "1"], 
+     ["Variables", "variables.htm", "1"], 
+     ["Pages and Branches", "pagesnbranches.htm", "1"]], 
+   ["Map Events", "mapevents.htm", "1", 
+     ["Creating Map Events", "creatingmapevents.htm", "1"], 
+     ["Editing Map Events", "editingmapevents.htm", "1"], 
+     ["Map Event Settings", "mapeventsettings.htm", "1"]], 
+   ["Common Events", "commonevents.htm", "1", 
+     ["Common Event Settings", "commoneventsettings.htm", "1"]], 
+   ["Battle Events", "battleevents.htm", "1", 
+     ["Battle Event Settings", "battleeventsettings.htm", "1"]], 
+   ["Overview of Commands", "overviewofcommands.htm", "1", 
+     ["Move Events", "moveevents.htm", "1", 
+       ["Set Move Route", "setmoveroute.htm", "1"]], 
+     ["Event Command List", "eventcommandlist.htm", "1", 
+       ["Show Text", "showtext.htm", "1"], 
+       ["Display Text Settings", "displaytextsettings.htm", "1"], 
+       ["Change Faceset", "changefaceset.htm", "1"], 
+       ["Show Choices", "showchoices.htm", "1"], 
+       ["Input Number", "inputnumber.htm", "1"], 
+       ["Control Switches", "controlswitches.htm", "1"], 
+       ["Control Variables", "controlvariables.htm", "1"], 
+       ["Control Timer", "controltimer.htm", "1"], 
+       ["Change Gold", "changegold.htm", "1"], 
+       ["Change Items", "changeitems.htm", "1"], 
+       ["Change Party Member", "changepartymember.htm", "1"], 
+       ["Change EXP", "changeexp.htm", "1"], 
+       ["Change Level", "changelevel.htm", "1"], 
+       ["Change Parameters", "changeparameters.htm", "1"], 
+       ["Change Skills", "changeskills.htm", "1"], 
+       ["Change Equipment", "changeequipment.htm", "1"], 
+       ["Change HP", "changehp.htm", "1"], 
+       ["Change MP", "changemp.htm", "1"], 
+       ["Change State", "changestate.htm", "1"], 
+       ["Recover All", "recoverall.htm", "1"], 
+       ["Damage Processing", "damageprocessing.htm", "1"], 
+       ["Change Actor Name", "changeactorname.htm", "1"], 
+       ["Change Actor Nickname", "changeactornickname.htm", "1"], 
+       ["Change Actor Graphic", "changeactorgraphic.htm", "1"], 
+       ["Change Actor Faceset", "changeactorfaceset.htm", "1"], 
+       ["Change Vehicle Graphic", "changevehiclegraphic.htm", "1"], 
+       ["Change System BGM", "changesystembgm.htm", "1"], 
+       ["Change System SE", "changesystemse.htm", "1"], 
+       ["Change System Graphic", "changesystemgraphic.htm", "1"], 
+       ["Change Screen Transition", "changescreentransition.htm", "1"], 
+       ["Battle Processing", "battleprocessing.htm", "1"], 
+       ["Shop Processing", "shopprocessing.htm", "1"], 
+       ["Inn Processing", "innprocessing.htm", "1"], 
+       ["Name Input Processing", "nameinputprocessing.htm", "1"], 
+       ["Transfer Player", "transferplayer.htm", "1"], 
+       ["Get Player Location", "getplayerlocation.htm", "1"], 
+       ["Move to Variable Location", "movetovariablelocation.htm", "1"], 
+       ["Get On/Off Vehicle", "getonoffvehicle.htm", "1"], 
+       ["Set Vehicle Location", "setvehiclelocation.htm", "1"], 
+       ["Set Event Location", "seteventlocation.htm", "1"], 
+       ["Swap Event Location", "swapeventlocation.htm", "1"], 
+       ["Get Terrain ID", "getterrainid.htm", "1"], 
+       ["Get Event ID", "geteventlocation.htm", "1"], 
+       ["Hide Screen", "hidescreen.htm", "1"], 
+       ["Show Screen", "showscreen.htm", "1"], 
+       ["Tint Screen", "tintscreen.htm", "1"], 
+       ["Flash Screen", "flashscreen.htm", "1"], 
+       ["Shake Screen", "shakescreen.htm", "1"], 
+       ["Scroll Map", "scrollmap.htm", "1"], 
+       ["Set Weather Effects", "setweathereffects.htm", "1"], 
+       ["Show Picture", "showpicture.htm", "1"], 
+       ["Move Picture", "movepicture.htm", "1"], 
+       ["Erase Picture", "erasepicture.htm", "1"], 
+       ["Show Animation", "showanimationb.htm", "1"], 
+       ["Show/Hide Player", "showhideplayer.htm", "1"], 
+       ["Flash Event", "flashevent.htm", "1"], 
+       ["Move Event", "moveevent.htm", "1"], 
+       ["Wait for All Movement", "waitforallmovement.htm", "1"], 
+       ["Stop All Movement", "stopallmovement.htm", "1"], 
+       ["Wait", "wait.htm", "1"], 
+       ["Play BGM", "playbgm.htm", "1"], 
+       ["Fadeout BGM", "fadeoutbgm.htm", "1"], 
+       ["Memorize Current BGM", "memorizecurrentbgm.htm", "1"], 
+       ["Play Memorized BGM", "playmemorizedbgm.htm", "1"], 
+       ["Play SE", "playse.htm", "1"], 
+       ["Play Movie", "playmovie.htm", "1"], 
+       ["Key Input Processing", "keyinputprocessing.htm", "1"], 
+       ["Change Tileset", "changetileset.htm", "1"], 
+       ["Change Parallax Back", "changeparallaxback.htm", "1"], 
+       ["Set Encounter Rate", "setencounterrate.htm", "1"], 
+       ["Change Tile", "changetile.htm", "1"], 
+       ["Set Teleportation Point", "setteleportationpoint.htm", "1"], 
+       ["Teleportation On/Off", "teleportationonoff.htm", "1"], 
+       ["Set Escape Location", "setescapelocation.htm", "1"], 
+       ["Change Escape Access", "changeescapeaccess.htm", "1"], 
+       ["Open Save Menu", "opensavemenu.htm", "1"], 
+       ["Change Save Access", "changesaveaccess.htm", "1"], 
+       ["Open Menu Screen", "openmenuscreen.htm", "1"], 
+       ["Change Menu Access", "changemenuaccess.htm", "1"], 
+       ["Conditional Branch", "conditionalbranch.htm", "1"], 
+       ["Label", "label.htm", "1"], 
+       ["Jump to Label", "jumptolabel.htm", "1"], 
+       ["Loop", "loop.htm", "1"], 
+       ["Break Loop", "breakloop.htm", "1"], 
+       ["End Event Processing", "endeventprocessing.htm", "1"], 
+       ["Erase Event", "eraseevent.htm", "1"], 
+       ["Call Event", "callevent.htm", "1"], 
+       ["Comment", "comment.htm", "1"], 
+       ["Game Over", "gameover.htm", "1"], 
+       ["Return to Title Screen", "returntotitlescreen.htm", "1"], 
+       ["Change Actor Class", "changeactorclass.htm", "1"], 
+       ["Change Battle Commands", "changebattlecommands.htm", "1"], 
+       ["Open Load Menu", "openloadmenu.htm", "1"], 
+       ["Exit Game", "exitgame.htm", "1"], 
+       ["Toggle ATB Wait Mode", "toggleatbwaitmode.htm", "1"], 
+       ["Toggle Fullscreen Mode", "togglefullscreenmode.htm", "1"], 
+       ["Open Video Options", "openvideooptions.htm", "1"], 
+       ["Change Enemy HP", "changeenemyhp.htm", "1"], 
+       ["Change Enemy MP", "changeenemymp.htm", "1"], 
+       ["Change Enemy State", "changeenemystate.htm", "1"], 
+       ["Enemy Encounter", "enemyencounter.htm", "1"], 
+       ["Change Battleback", "changebattleback.htm", "1"], 
+       ["Show Animation", "showanimationa.htm", "1"], 
+       ["Battle Events", "battleeventsa.htm", "1"], 
+       ["Abort Battle", "abortbattle.htm", "1"], 
+       ["Call Common Event", "callcommonevent.htm", "1"], 
+       ["Force Escape", "forceescape.htm", "1"], 
+       ["Action Times +", "actiontimes.htm", "1"]]], 
+   ["Material References", "materialreferences.htm", "1", 
+     ["Resource Specification", "resourcespecification.htm", "1"], 
+     ["Spritesheets", "spritesheets.htm", "1"], 
+     ["Tileset Specification", "tilesetspecification.htm", "1"], 
+     ["System Graphic Specification", "systemgraphicspecification.htm", "1"], 
+     ["System 2 Graphic Specification", "system2graphicspecification.htm", "1"], 
+     ["Battle Formula", "battleformula.htm", "1"], 
+     ["Special Characters Reference", "specialcharactersreference.htm", "1"], 
+     ["Error Message Handling", "errormessagehandling.htm", "1"]]]
+];
+
+var w=window,d=document
+var icons={'0'  : 'icons/0.gif','1'  : 'icons/90.gif',
+        '2'  : 'icons/91.gif', '3'  : 'icons/92.gif', '4'  : 'icons/99.gif',
+        '18' : 'icons/93.gif', '19' : 'icons/94.gif', '20' : 'icons/97.gif',
+        '26' : 'icons/95.gif', '27' : 'icons/96.gif', '28' : 'icons/98.gif'}
+
+var dhtml=true
+try{if(d.body.innerHTML.length<=0)dhtml=false}
+catch(e){dhtml=false;}
+var tree=[];
+
+get_element=d.all ? 
+     function(id){return d.all[id]}
+     : 
+     function(id){return d.getElementById(id)}
+
+function get_img1(){
+    return icons[((this.childs.length ? 16 : 0)+(this.childs.length && this.opened ? 8 : 0)+(this.is_last()? 1 : 0)+(this.is_first()? 2 : 0)+2)]
+}
+function get_img2(){
+    n=this.cnt[2]
+    if(n<9){    
+	n=(this.opened ? ( n%2 ? parseInt(n)+1 : n ) : ( n%2 ? n : parseInt(n)-1 ))
+    }
+    return 'icons/'+n+'.gif'
+}
+function node(tree,n){
+    this.ind=tree.ind+1
+    this.cnt=tree.cnt[n+(this.ind ? 3 : 0)]
+    if(!this.cnt)return
+    this.tree=tree.tree
+    this.parent=tree
+    this.opened=!dhtml
+    this.nind=this.tree.nodes.length
+    this.tree.nodes[this.nind]=this
+    tree.childs[n]=this
+    this.childs=[]
+    for(var i=0;i < this.cnt.length - 2;i++)
+	new node(this,i)
+    this.get_img1=get_img1
+    this.get_img2=get_img2
+    this.open=open
+    this.select=select
+    this.init=init
+    this.is_last=function(){
+	return n==this.parent.childs.length - 1
+    }
+    this.is_first=function(){
+	return(this.ind==0)&&(n==0)&&(!this.is_last())
+    }
+}
+
+function open(){
+    var childs=[]
+    var el=get_element('divCont'+this.nind)
+    if(!el)return
+    if(!dhtml){
+	d.write(childs.join(''))
+	    for(var i=0;i < this.childs.length;i++){
+	    d.write(this.childs[i].init())
+	    this.childs[i].open()
+	}
+    }
+    else{
+	if(!el.innerHTML){
+	    for(var i=0;i < this.childs.length;i++)
+		childs[i]=this.childs[i].init()
+	    el.innerHTML=childs.join('')
+	}
+	el.style.display=(this.opened ? 'none' : 'block')
+	this.opened=!this.opened
+	var img1=d.images['img1_'+this.nind],img2=d.images['img2_'+this.nind]
+	if(img1)img1.src=this.get_img1()
+	if(img2)img2.src=this.get_img2()
+    }
+}
+
+
+function select(nind){
+    if(!nind){
+	var sel=this.tree.sel
+	this.tree.sel=this
+	if(sel)sel.select(true)
+    }
+    var img2=d.images['img2_'+this.nind]
+    if(img2)img2.src=this.get_img2()
+    get_element('el'+this.nind).style.fontWeight=nind ? 'normal' : 'bold'
+    return Boolean(this.cnt[1])
+}
+
+function init(){
+    var temp=[],par=this.parent
+    for(var i=this.ind;i>0;i--){
+	temp[i]='<img src="'+icons[par.is_last()? 0 : 1]+'" border="0" align="absbottom">'
+	par=par.parent
+    }
+    r='<table cellpadding="0" cellspacing="0" border="0">'
+    r+='<tr><td nowrap>'
+    r+=temp.join('')
+    r+=(this.childs.length ?(!dhtml ? '' : '<a href="javascript: tree.toggle('+this.nind+')" >')+'<img src="'+this.get_img1()+'" border="0" align="absbottom" name="img1_'+this.nind+'">'+(!dhtml ? '' : '</a>'): '<img src="'+this.get_img1()+'" border="0" align="absbottom">')
+    r+='<a href="'+this.cnt[1]+'" target="'+'content'+'"'+' title="'+this.cnt[0]+'" onclick="return tree.select('+this.nind+')" '+(!dhtml ? '' : ' ondblclick="tree.toggle('+this.nind+')"')+' class="small" id="el'+this.nind+'"><img src="'+this.get_img2()+'" border="0" align="absbottom" name="img2_'+this.nind+'">&nbsp;'+this.cnt[0]+'</a>'
+    r+='</td></tr></table>'
+    r+=(this.childs.length ? '<div id="divCont'+this.nind+'" style="display:none"></div>' : '')
+    return r
+}
+
+function draw_contents(cnt){
+    tree=this;
+    tree.cnt=cnt;
+    tree.tree=this;
+    tree.nodes=[];
+    tree.sel=null;
+    tree.ind=-1;
+    
+    tree.select=function(i){
+	return tree.nodes[i].select();
+    };
+    tree.toggle=function(i){
+	tree.nodes[i].open()
+    };
+    tree.childs=[]
+    for(var i=0;i<cnt.length;i++){
+	new node(tree,i)
+    }
+    tree.nind=0;
+    
+    for(var i=0;i < tree.childs.length;i++){
+	d.write(tree.childs[i].init());
+	if(!dhtml)tree.childs[i].open();
+    }
+}
+
+
+function getLoc(){
+var doc = ""+parent.frames[1].location;
+if(doc != lastDoc){
+        var keyVals = new Array();
+        keyVals = doc.split("\/");
+        var targetPage = ""+keyVals[(keyVals.length-1)];
+
+        if(targetPage.indexOf("\#") > 0){
+                targetPage = targetPage.substr(0,targetPage.indexOf("\#"));
+        }
+
+        nodeCount = 0;
+        while( (""+tree.nodes[nodeCount].cnt[1]).lastIndexOf(targetPage) < 0){
+                nodeCount++;
+        }
+        parentNode = tree.nodes[nodeCount].parent;
+                if(parentNode != tree && parentNode.opened == false){
+                        parentNode.open();
+                }
+        tree.nodes[nodeCount].select();
+        lastDoc = doc;
+        }
+}
+new draw_contents(contents);
+</script>
+ </body>
+</html>

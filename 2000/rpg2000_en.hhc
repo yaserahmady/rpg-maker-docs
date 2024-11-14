@@ -1,0 +1,971 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800025">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="RPG Maker 2000">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28ycf.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Basic Operation">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg28yrb.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Editor">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28yrc.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Game">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28yrd.htm">
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Main Editor">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg27ezn.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Main Window Content
+">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg27f1h.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Menu Bar">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg2886w.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Menu Bar Contents">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2120e.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Project">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2120f.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Map">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2120g.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Tools">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg26mld.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Game">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg26mle.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Help">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg26mlf.htm">
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Toolbar Contents">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg21240.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Toolbar Contents">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2886x.htm">
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Supplementary Features">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg2886o.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="BGM Test">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2886m.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Resource Manager">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2887z.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Begin Playtest">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28a5v.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Create Game Installer">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28yr4.htm">
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Projects">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg28a7r.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Project Summary">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28a7s.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Create Project">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28a7t.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Project Controls">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28a7u.htm">
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Map">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg29037.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Map Summary">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28yqn.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Map Tiles">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg285rt.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Creating Map Data">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg21228.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Managing Map Data">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg285ri.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Saving Map Data">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg26mn7.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Map Editing">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg285sv.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Areas">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28a5x.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Map Properties">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg28yni.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Map Properties">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2886v.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Map Editing Tools">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28a7o.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Area Creation">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28a9h.htm">
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Database">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg292rb.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Database Settings">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg21ueo.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Actors">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292rc.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Skills">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292rd.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Items">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292re.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Enemies">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg21upc.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Troops">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292r5.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Elements">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292r6.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="States">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292r7.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Animations">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292r8.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Terrain">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg27eud.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Tilesets">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28ynr.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Terms">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28yns.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="System">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28ynt.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Common Events">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28dh1.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Supplementary Windows">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg229o5.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Experience Curve">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28yov.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Parameter Curve">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28yb2.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Action Pattern">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg289h3.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Battle Test">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292ib.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Frame View Editing">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg27eub.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="SE and Flash Timing">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28ypk.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Copy/Clear Cells">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg27euc.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Tweening">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg29039.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Cell Batch Settings">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28ypj.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Tileset Properties">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28ypl.htm">
+</OBJECT>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Events">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg27f1b.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Event Summary">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg21uge.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Events Setup Notes">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg26mlg.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Event Content">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg27f1g.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Switches">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg26mjy.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Variables">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg26mlb.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Pages and Branches">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28ypc.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Map Events">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg21ugf.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Creating Map Events">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg21ugg.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Editing Map Events">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg27f1d.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Map Event Settings">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28dh3.htm">
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Common Events">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg28dh1.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Common Event Settings">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28dh4.htm">
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Battle Events">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg26pk5.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Battle Event Setting">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg289dj.htm">
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Overview of Commands">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg27f39.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Move Events">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg229o5.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Move Route">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2868v.htm">
+</OBJECT>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Event Command List">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg26pk3.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Show Text">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28oyq.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Display Text Settings">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28y7s.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Faceset">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28y7t.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Show Choices">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28y7k.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Input Number">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg21ui8.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Control Switches">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28y7i.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Control Variables">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28y8v.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Control Timer">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg27f37.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Gold">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg27f38.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Items">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292lx.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Party Member">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg290mv.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change EXP">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg290mw.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Level">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg290mx.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Parameters">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg290mo.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Skills">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg21uk0.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Equipment">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg290mm.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change HP">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg290nz.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change MP">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292lv.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change State">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292lw.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Recover All">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292np.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Damage Processing">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292nr.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Actor Name">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292ns.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Actor Nickname">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292nt.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Actor Graphic">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292nu.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Actor Faceset">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg21uls.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Vehicle Graphic">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292nl.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change System BGM">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292nm.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change System SE">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292nn.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change System Graphic">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292no.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Screen Transition">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292ph.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Battle Processing">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292pj.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Shop Processing">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292pk.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Inn Processing">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292pl.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Name Input Processing">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292pm.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Transfer Player">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg21unk.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Get Player Location">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292pd.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Move to Variable Location">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292pe.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Get On/Off Vehicle">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292pf.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Set Vehicle Location">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292pg.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Set Event Location">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28ab9.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Swap Event Location">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28abb.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Get Terrain ID">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28abc.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Get Event ID">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28abd.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Hide Screen">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28abe.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Show Screen">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2129c.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Tint Screen">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28ab5.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Flash Screen">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28ab6.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Shake Screen">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28ab7.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Scroll Map">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28ab8.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Set Weather Effects">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg26med.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Show Picture">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2867r.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Move Picture">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2867s.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Erase Picture">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2867t.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Show Animation">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28d83.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Show/Hide Player">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg21h6d.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Flash Event">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2867i.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Set Move Route">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2868v.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Wait for All Movement">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg26meb.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Stop All Movement">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg26mec.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Wait">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg287n9.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Play BGM">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2869j.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Fadeout BGM">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2869k.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Memorize Current BGM">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2869l.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Play Memorized BGM">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2869c.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Play SE">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg21h85.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Play Movie">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg2869a.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Key Input Processing">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg286an.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Tileset">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg287n7.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Parallax Back">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg287n8.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Set Encounter Rate">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28a2d.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Tile">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg286bb.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Set Teleport Point">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg286bc.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Teleportation ON/OFF">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg286bd.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Set Escape Location">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg286b4.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Escape Access">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg21h9x.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Open Save Menu">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg286b2.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Save Access">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg286cf.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Open Menu Screen">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28a2b.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Menu Access">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28a2c.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Conditional Branch">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg26mjp.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Label">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg285vb.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Jump to Label">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg285vc.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Loop">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg285vd.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Break Loop">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg285v4.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="End Event Processing">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg211yo.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Erase Event">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg285v2.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Call Event">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg285wf.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Comment">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg26mjn.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Game Over">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg26mjo.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Return to Title Screen">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg26mlh.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Enemy HP">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg289h5.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Enemy MP">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg289gw.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Enemy State">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg21kfp.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Enemy Encounter">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg289gu.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Change Battleback">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg289i7.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Show Animation">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28d83.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Conditional Branch (Battles)">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28d84.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Abort Battle">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg27ezp.htm">
+</OBJECT>
+</UL>
+</UL>
+</UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Material References">
+	<param name="ImageNumber" value="1">
+	<param name="Local" value="_resource_html_rpg29038.htm">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Resource Specification">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292id.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Tileset Specification">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg229px.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="System Graphic Specification">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28yr2.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Battle Formula">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg28ysf.htm">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+	<param name="Name" value="Special Characters Reference">
+	<param name="ImageNumber" value="9">
+	<param name="Local" value="_resource_html_rpg292ic.htm">
+</OBJECT>
+</UL>
+</UL>
+</BODY></HTML>

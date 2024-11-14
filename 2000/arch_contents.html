@@ -1,0 +1,358 @@
+<html>
+ <head>
+  <title>rpg2000.chm</title>
+  <LINK rel="Stylesheet" type="text/css" href="arch_css.css">
+</head>
+
+<body onload="setInterval('getLoc()', 500);">    
+<script>
+var lastDoc;
+var contents = 
+[
+ ["RPG Maker 2000", "_resource_html_rpg28ycf.htm", "9"], 
+ ["Basic Operation", "_resource_html_rpg28yrb.htm", "1", 
+   ["Editor", "_resource_html_rpg28yrc.htm", "9"], 
+   ["Game", "_resource_html_rpg28yrd.htm", "9"]], 
+ ["Main Editor", "_resource_html_rpg27ezn.htm", "1", 
+   ["Main Window Content", "_resource_html_rpg27f1h.htm", "9"], 
+   ["Menu Bar", "_resource_html_rpg2886w.htm", "1", 
+     ["Menu Bar Contents", "_resource_html_rpg2120e.htm", "9"], 
+     ["Project", "_resource_html_rpg2120f.htm", "9"], 
+     ["Map", "_resource_html_rpg2120g.htm", "9"], 
+     ["Tools", "_resource_html_rpg26mld.htm", "9"], 
+     ["Game", "_resource_html_rpg26mle.htm", "9"], 
+     ["Help", "_resource_html_rpg26mlf.htm", "9"]], 
+   ["Toolbar Contents", "_resource_html_rpg21240.htm", "1", 
+     ["Toolbar Contents", "_resource_html_rpg2886x.htm", "9"]], 
+   ["Supplementary Features", "_resource_html_rpg2886o.htm", "1", 
+     ["BGM Test", "_resource_html_rpg2886m.htm", "9"], 
+     ["Resource Manager", "_resource_html_rpg2887z.htm", "9"], 
+     ["Begin Playtest", "_resource_html_rpg28a5v.htm", "9"], 
+     ["Create Game Installer", "_resource_html_rpg28yr4.htm", "9"]]], 
+ ["Projects", "_resource_html_rpg28a7r.htm", "1", 
+   ["Project Summary", "_resource_html_rpg28a7s.htm", "9"], 
+   ["Create Project", "_resource_html_rpg28a7t.htm", "9"], 
+   ["Project Controls", "_resource_html_rpg28a7u.htm", "9"]], 
+ ["Map", "_resource_html_rpg29037.htm", "1", 
+   ["Map Summary", "_resource_html_rpg28yqn.htm", "9"], 
+   ["Map Tiles", "_resource_html_rpg285rt.htm", "9"], 
+   ["Creating Map Data", "_resource_html_rpg21228.htm", "9"], 
+   ["Managing Map Data", "_resource_html_rpg285ri.htm", "9"], 
+   ["Saving Map Data", "_resource_html_rpg26mn7.htm", "9"], 
+   ["Map Editing", "_resource_html_rpg285sv.htm", "9"], 
+   ["Areas", "_resource_html_rpg28a5x.htm", "9"], 
+   ["Map Properties", "_resource_html_rpg28yni.htm", "1", 
+     ["Map Properties", "_resource_html_rpg2886v.htm", "9"], 
+     ["Map Editing Tools", "_resource_html_rpg28a7o.htm", "9"], 
+     ["Area Creation", "_resource_html_rpg28a9h.htm", "9"]]], 
+ ["Database", "_resource_html_rpg292rb.htm", "1", 
+   ["Database Settings", "_resource_html_rpg21ueo.htm", "9"], 
+   ["Actors", "_resource_html_rpg292rc.htm", "9"], 
+   ["Skills", "_resource_html_rpg292rd.htm", "9"], 
+   ["Items", "_resource_html_rpg292re.htm", "9"], 
+   ["Enemies", "_resource_html_rpg21upc.htm", "9"], 
+   ["Troops", "_resource_html_rpg292r5.htm", "9"], 
+   ["Elements", "_resource_html_rpg292r6.htm", "9"], 
+   ["States", "_resource_html_rpg292r7.htm", "9"], 
+   ["Animations", "_resource_html_rpg292r8.htm", "9"], 
+   ["Terrain", "_resource_html_rpg27eud.htm", "9"], 
+   ["Tilesets", "_resource_html_rpg28ynr.htm", "9"], 
+   ["Terms", "_resource_html_rpg28yns.htm", "9"], 
+   ["System", "_resource_html_rpg28ynt.htm", "9"], 
+   ["Common Events", "_resource_html_rpg28dh1.htm", "9"], 
+   ["Supplementary Windows", "_resource_html_rpg229o5.htm", "1", 
+     ["Experience Curve", "_resource_html_rpg28yov.htm", "9"], 
+     ["Parameter Curve", "_resource_html_rpg28yb2.htm", "9"], 
+     ["Action Pattern", "_resource_html_rpg289h3.htm", "9"], 
+     ["Battle Test", "_resource_html_rpg292ib.htm", "9"], 
+     ["Frame View Editing", "_resource_html_rpg27eub.htm", "9"], 
+     ["SE and Flash Timing", "_resource_html_rpg28ypk.htm", "9"], 
+     ["Copy/Clear Cells", "_resource_html_rpg27euc.htm", "9"], 
+     ["Tweening", "_resource_html_rpg29039.htm", "9"], 
+     ["Cell Batch Settings", "_resource_html_rpg28ypj.htm", "9"], 
+     ["Tileset Properties", "_resource_html_rpg28ypl.htm", "9"]]], 
+ ["Events", "_resource_html_rpg27f1b.htm", "1", 
+   ["Event Summary", "_resource_html_rpg21uge.htm", "9"], 
+   ["Events Setup Notes", "_resource_html_rpg26mlg.htm", "9"], 
+   ["Event Content", "_resource_html_rpg27f1g.htm", "9"], 
+   ["Switches", "_resource_html_rpg26mjy.htm", "9"], 
+   ["Variables", "_resource_html_rpg26mlb.htm", "9"], 
+   ["Pages and Branches", "_resource_html_rpg28ypc.htm", "9"], 
+   ["Map Events", "_resource_html_rpg21ugf.htm", "1", 
+     ["Creating Map Events", "_resource_html_rpg21ugg.htm", "9"], 
+     ["Editing Map Events", "_resource_html_rpg27f1d.htm", "9"], 
+     ["Map Event Settings", "_resource_html_rpg28dh3.htm", "9"]], 
+   ["Common Events", "_resource_html_rpg28dh1.htm", "1", 
+     ["Common Event Settings", "_resource_html_rpg28dh4.htm", "9"]], 
+   ["Battle Events", "_resource_html_rpg26pk5.htm", "1", 
+     ["Battle Event Setting", "_resource_html_rpg289dj.htm", "9"]], 
+   ["Overview of Commands", "_resource_html_rpg27f39.htm", "1", 
+     ["Move Events", "_resource_html_rpg229o5.htm", "1", 
+       ["Move Route", "_resource_html_rpg2868v.htm", "9"]], 
+     ["Event Command List", "_resource_html_rpg26pk3.htm", "1", 
+       ["Show Text", "_resource_html_rpg28oyq.htm", "9"], 
+       ["Display Text Settings", "_resource_html_rpg28y7s.htm", "9"], 
+       ["Change Faceset", "_resource_html_rpg28y7t.htm", "9"], 
+       ["Show Choices", "_resource_html_rpg28y7k.htm", "9"], 
+       ["Input Number", "_resource_html_rpg21ui8.htm", "9"], 
+       ["Control Switches", "_resource_html_rpg28y7i.htm", "9"], 
+       ["Control Variables", "_resource_html_rpg28y8v.htm", "9"], 
+       ["Control Timer", "_resource_html_rpg27f37.htm", "9"], 
+       ["Change Gold", "_resource_html_rpg27f38.htm", "9"], 
+       ["Change Items", "_resource_html_rpg292lx.htm", "9"], 
+       ["Change Party Member", "_resource_html_rpg290mv.htm", "9"], 
+       ["Change EXP", "_resource_html_rpg290mw.htm", "9"], 
+       ["Change Level", "_resource_html_rpg290mx.htm", "9"], 
+       ["Change Parameters", "_resource_html_rpg290mo.htm", "9"], 
+       ["Change Skills", "_resource_html_rpg21uk0.htm", "9"], 
+       ["Change Equipment", "_resource_html_rpg290mm.htm", "9"], 
+       ["Change HP", "_resource_html_rpg290nz.htm", "9"], 
+       ["Change MP", "_resource_html_rpg292lv.htm", "9"], 
+       ["Change State", "_resource_html_rpg292lw.htm", "9"], 
+       ["Recover All", "_resource_html_rpg292np.htm", "9"], 
+       ["Damage Processing", "_resource_html_rpg292nr.htm", "9"], 
+       ["Change Actor Name", "_resource_html_rpg292ns.htm", "9"], 
+       ["Change Actor Nickname", "_resource_html_rpg292nt.htm", "9"], 
+       ["Change Actor Graphic", "_resource_html_rpg292nu.htm", "9"], 
+       ["Change Actor Faceset", "_resource_html_rpg21uls.htm", "9"], 
+       ["Change Vehicle Graphic", "_resource_html_rpg292nl.htm", "9"], 
+       ["Change System BGM", "_resource_html_rpg292nm.htm", "9"], 
+       ["Change System SE", "_resource_html_rpg292nn.htm", "9"], 
+       ["Change System Graphic", "_resource_html_rpg292no.htm", "9"], 
+       ["Change Screen Transition", "_resource_html_rpg292ph.htm", "9"], 
+       ["Battle Processing", "_resource_html_rpg292pj.htm", "9"], 
+       ["Shop Processing", "_resource_html_rpg292pk.htm", "9"], 
+       ["Inn Processing", "_resource_html_rpg292pl.htm", "9"], 
+       ["Name Input Processing", "_resource_html_rpg292pm.htm", "9"], 
+       ["Transfer Player", "_resource_html_rpg21unk.htm", "9"], 
+       ["Get Player Location", "_resource_html_rpg292pd.htm", "9"], 
+       ["Move to Variable Location", "_resource_html_rpg292pe.htm", "9"], 
+       ["Get On/Off Vehicle", "_resource_html_rpg292pf.htm", "9"], 
+       ["Set Vehicle Location", "_resource_html_rpg292pg.htm", "9"], 
+       ["Set Event Location", "_resource_html_rpg28ab9.htm", "9"], 
+       ["Swap Event Location", "_resource_html_rpg28abb.htm", "9"], 
+       ["Get Terrain ID", "_resource_html_rpg28abc.htm", "9"], 
+       ["Get Event ID", "_resource_html_rpg28abd.htm", "9"], 
+       ["Hide Screen", "_resource_html_rpg28abe.htm", "9"], 
+       ["Show Screen", "_resource_html_rpg2129c.htm", "9"], 
+       ["Tint Screen", "_resource_html_rpg28ab5.htm", "9"], 
+       ["Flash Screen", "_resource_html_rpg28ab6.htm", "9"], 
+       ["Shake Screen", "_resource_html_rpg28ab7.htm", "9"], 
+       ["Scroll Map", "_resource_html_rpg28ab8.htm", "9"], 
+       ["Set Weather Effects", "_resource_html_rpg26med.htm", "9"], 
+       ["Show Picture", "_resource_html_rpg2867r.htm", "9"], 
+       ["Move Picture", "_resource_html_rpg2867s.htm", "9"], 
+       ["Erase Picture", "_resource_html_rpg2867t.htm", "9"], 
+       ["Show Animation", "_resource_html_rpg28d83.htm", "9"], 
+       ["Show/Hide Player", "_resource_html_rpg21h6d.htm", "9"], 
+       ["Flash Event", "_resource_html_rpg2867i.htm", "9"], 
+       ["Set Move Route", "_resource_html_rpg2868v.htm", "9"], 
+       ["Wait for All Movement", "_resource_html_rpg26meb.htm", "9"], 
+       ["Stop All Movement", "_resource_html_rpg26mec.htm", "9"], 
+       ["Wait", "_resource_html_rpg287n9.htm", "9"], 
+       ["Play BGM", "_resource_html_rpg2869j.htm", "9"], 
+       ["Fadeout BGM", "_resource_html_rpg2869k.htm", "9"], 
+       ["Memorize Current BGM", "_resource_html_rpg2869l.htm", "9"], 
+       ["Play Memorized BGM", "_resource_html_rpg2869c.htm", "9"], 
+       ["Play SE", "_resource_html_rpg21h85.htm", "9"], 
+       ["Play Movie", "_resource_html_rpg2869a.htm", "9"], 
+       ["Key Input Processing", "_resource_html_rpg286an.htm", "9"], 
+       ["Change Tileset", "_resource_html_rpg287n7.htm", "9"], 
+       ["Change Parallax Back", "_resource_html_rpg287n8.htm", "9"], 
+       ["Set Encounter Rate", "_resource_html_rpg28a2d.htm", "9"], 
+       ["Change Tile", "_resource_html_rpg286bb.htm", "9"], 
+       ["Set Teleport Point", "_resource_html_rpg286bc.htm", "9"], 
+       ["Teleportation ON/OFF", "_resource_html_rpg286bd.htm", "9"], 
+       ["Set Escape Location", "_resource_html_rpg286b4.htm", "9"], 
+       ["Change Escape Access", "_resource_html_rpg21h9x.htm", "9"], 
+       ["Open Save Menu", "_resource_html_rpg286b2.htm", "9"], 
+       ["Change Save Access", "_resource_html_rpg286cf.htm", "9"], 
+       ["Open Menu Screen", "_resource_html_rpg28a2b.htm", "9"], 
+       ["Change Menu Access", "_resource_html_rpg28a2c.htm", "9"], 
+       ["Conditional Branch", "_resource_html_rpg26mjp.htm", "9"], 
+       ["Label", "_resource_html_rpg285vb.htm", "9"], 
+       ["Jump to Label", "_resource_html_rpg285vc.htm", "9"], 
+       ["Loop", "_resource_html_rpg285vd.htm", "9"], 
+       ["Break Loop", "_resource_html_rpg285v4.htm", "9"], 
+       ["End Event Processing", "_resource_html_rpg211yo.htm", "9"], 
+       ["Erase Event", "_resource_html_rpg285v2.htm", "9"], 
+       ["Call Event", "_resource_html_rpg285wf.htm", "9"], 
+       ["Comment", "_resource_html_rpg26mjn.htm", "9"], 
+       ["Game Over", "_resource_html_rpg26mjo.htm", "9"], 
+       ["Return to Title Screen", "_resource_html_rpg26mlh.htm", "9"], 
+       ["Change Enemy HP", "_resource_html_rpg289h5.htm", "9"], 
+       ["Change Enemy MP", "_resource_html_rpg289gw.htm", "9"], 
+       ["Change Enemy State", "_resource_html_rpg21kfp.htm", "9"], 
+       ["Enemy Encounter", "_resource_html_rpg289gu.htm", "9"], 
+       ["Change Battleback", "_resource_html_rpg289i7.htm", "9"], 
+       ["Show Animation", "_resource_html_rpg28d83.htm", "9"], 
+       ["Conditional Branch (Battles)", "_resource_html_rpg28d84.htm", "9"], 
+       ["Abort Battle", "_resource_html_rpg27ezp.htm", "9"]]]], 
+ ["Material References", "_resource_html_rpg29038.htm", "1", 
+   ["Resource Specification", "_resource_html_rpg292id.htm", "9"], 
+   ["Tileset Specification", "_resource_html_rpg229px.htm", "9"], 
+   ["System Graphic Specification", "_resource_html_rpg28yr2.htm", "9"], 
+   ["Battle Formula", "_resource_html_rpg28ysf.htm", "9"], 
+   ["Special Characters Reference", "_resource_html_rpg292ic.htm", "9"]]
+];
+
+var w=window,d=document
+var icons={'0'  : 'icons/0.gif','1'  : 'icons/90.gif',
+        '2'  : 'icons/91.gif', '3'  : 'icons/92.gif', '4'  : 'icons/99.gif',
+        '18' : 'icons/93.gif', '19' : 'icons/94.gif', '20' : 'icons/97.gif',
+        '26' : 'icons/95.gif', '27' : 'icons/96.gif', '28' : 'icons/98.gif'}
+
+var dhtml=true
+try{if(d.body.innerHTML.length<=0)dhtml=false}
+catch(e){dhtml=false;}
+var tree=[];
+
+get_element=d.all ? 
+     function(id){return d.all[id]}
+     : 
+     function(id){return d.getElementById(id)}
+
+function get_img1(){
+    return icons[((this.childs.length ? 16 : 0)+(this.childs.length && this.opened ? 8 : 0)+(this.is_last()? 1 : 0)+(this.is_first()? 2 : 0)+2)]
+}
+function get_img2(){
+    n=this.cnt[2]
+    if(n<9){    
+	n=(this.opened ? ( n%2 ? parseInt(n)+1 : n ) : ( n%2 ? n : parseInt(n)-1 ))
+    }
+    return 'icons/'+n+'.gif'
+}
+function node(tree,n){
+    this.ind=tree.ind+1
+    this.cnt=tree.cnt[n+(this.ind ? 3 : 0)]
+    if(!this.cnt)return
+    this.tree=tree.tree
+    this.parent=tree
+    this.opened=!dhtml
+    this.nind=this.tree.nodes.length
+    this.tree.nodes[this.nind]=this
+    tree.childs[n]=this
+    this.childs=[]
+    for(var i=0;i < this.cnt.length - 2;i++)
+	new node(this,i)
+    this.get_img1=get_img1
+    this.get_img2=get_img2
+    this.open=open
+    this.select=select
+    this.init=init
+    this.is_last=function(){
+	return n==this.parent.childs.length - 1
+    }
+    this.is_first=function(){
+	return(this.ind==0)&&(n==0)&&(!this.is_last())
+    }
+}
+
+function open(){
+    var childs=[]
+    var el=get_element('divCont'+this.nind)
+    if(!el)return
+    if(!dhtml){
+	d.write(childs.join(''))
+	    for(var i=0;i < this.childs.length;i++){
+	    d.write(this.childs[i].init())
+	    this.childs[i].open()
+	}
+    }
+    else{
+	if(!el.innerHTML){
+	    for(var i=0;i < this.childs.length;i++)
+		childs[i]=this.childs[i].init()
+	    el.innerHTML=childs.join('')
+	}
+	el.style.display=(this.opened ? 'none' : 'block')
+	this.opened=!this.opened
+	var img1=d.images['img1_'+this.nind],img2=d.images['img2_'+this.nind]
+	if(img1)img1.src=this.get_img1()
+	if(img2)img2.src=this.get_img2()
+    }
+}
+
+
+function select(nind){
+    if(!nind){
+	var sel=this.tree.sel
+	this.tree.sel=this
+	if(sel)sel.select(true)
+    }
+    var img2=d.images['img2_'+this.nind]
+    if(img2)img2.src=this.get_img2()
+    get_element('el'+this.nind).style.fontWeight=nind ? 'normal' : 'bold'
+    return Boolean(this.cnt[1])
+}
+
+function init(){
+    var temp=[],par=this.parent
+    for(var i=this.ind;i>0;i--){
+	temp[i]='<img src="'+icons[par.is_last()? 0 : 1]+'" border="0" align="absbottom">'
+	par=par.parent
+    }
+    r='<table cellpadding="0" cellspacing="0" border="0">'
+    r+='<tr><td nowrap>'
+    r+=temp.join('')
+    r+=(this.childs.length ?(!dhtml ? '' : '<a href="javascript: tree.toggle('+this.nind+')" >')+'<img src="'+this.get_img1()+'" border="0" align="absbottom" name="img1_'+this.nind+'">'+(!dhtml ? '' : '</a>'): '<img src="'+this.get_img1()+'" border="0" align="absbottom">')
+    r+='<a href="'+this.cnt[1]+'" target="'+'content'+'"'+' title="'+this.cnt[0]+'" onclick="return tree.select('+this.nind+')" '+(!dhtml ? '' : ' ondblclick="tree.toggle('+this.nind+')"')+' class="small" id="el'+this.nind+'"><img src="'+this.get_img2()+'" border="0" align="absbottom" name="img2_'+this.nind+'">&nbsp;'+this.cnt[0]+'</a>'
+    r+='</td></tr></table>'
+    r+=(this.childs.length ? '<div id="divCont'+this.nind+'" style="display:none"></div>' : '')
+    return r
+}
+
+function draw_contents(cnt){
+    tree=this;
+    tree.cnt=cnt;
+    tree.tree=this;
+    tree.nodes=[];
+    tree.sel=null;
+    tree.ind=-1;
+    
+    tree.select=function(i){
+	return tree.nodes[i].select();
+    };
+    tree.toggle=function(i){
+	tree.nodes[i].open()
+    };
+    tree.childs=[]
+    for(var i=0;i<cnt.length;i++){
+	new node(tree,i)
+    }
+    tree.nind=0;
+    
+    for(var i=0;i < tree.childs.length;i++){
+	d.write(tree.childs[i].init());
+	if(!dhtml)tree.childs[i].open();
+    }
+}
+
+
+function getLoc(){
+var doc = ""+parent.frames[1].location;
+if(doc != lastDoc){
+        var keyVals = new Array();
+        keyVals = doc.split("\/");
+        var targetPage = ""+keyVals[(keyVals.length-1)];
+
+        if(targetPage.indexOf("\#") > 0){
+                targetPage = targetPage.substr(0,targetPage.indexOf("\#"));
+        }
+
+        nodeCount = 0;
+        while( (""+tree.nodes[nodeCount].cnt[1]).lastIndexOf(targetPage) < 0){
+                nodeCount++;
+        }
+        parentNode = tree.nodes[nodeCount].parent;
+                if(parentNode != tree && parentNode.opened == false){
+                        parentNode.open();
+                }
+        tree.nodes[nodeCount].select();
+        lastDoc = doc;
+        }
+}
+new draw_contents(contents);
+</script>
+ </body>
+</html>

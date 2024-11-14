@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Conditional Branch</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />   
+   
+   <meta http-equiv="X-UA-Compatible" content="IE=8" />
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta name="description" content="[Conditional Branch] &nbsp;Function Creates branching in the event content to provide handling when conditions are met. &nbsp;Settings Choose the condition from the various options and" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+   <link type="text/css" href="custom.css" rel="stylesheet" />
+
+   <style TYPE="text/css" media="screen"> 
+      html, body { margin:0; 
+        padding:0; 
+        background: #ffffff; 
+      } 
+      div#printheader { display: none; }
+      #idheader { 
+        width:100%; 
+        height:auto; 
+        padding: 0; 
+        margin: 0;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+      } 
+      /* The "min-height" for "#idheader table" ensures that the (blue) header of the topic
+         has at least the same height as the header of the navigation panel left of it */
+      #idheader table { background: #2C5D88; min-height: 59px }             
+      #idheader h1 span { color: #FFF }     
+      #idnav {
+        text-align: right;
+        width: 126px;
+        vertical-align: middle;        
+      } 
+      #idnav a { text-decoration: none }
+      #idnav span {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        margin-left: 4px;
+        background:url('hm_webhelp_buttons_grey.png') top left no-repeat;
+      } 
+      #idnav a span {
+        background-image:url('hm_webhelp_buttons_white.png');
+      } 
+      #idnav a span:hover {
+        background-image:url('hm_webhelp_buttons_orange.png');
+      } 
+      #idnav span.hmbtnprev { background-position: 0 -32px }
+      #idnav span.hmbtnnext { background-position: -24px -32px }
+      #idnav span.hmbtntop  { background-position: -48px -32px }
+      #idnav span.hmbtntoggle  { width: 20px; background-position: -70px -32px }
+      #idnav span.hmbtnprint  { background-position: -88px -32px }
+
+      #callout-table, #overview-table {display:block; position:relative; top:0; left:0;}
+      #callout-icon {display:block; position:absolute; top:-11px; left:-11px;}
+      #callout-icon-flag {display:block; position:absolute; top:-11px; left:-8px;}
+      #callout-table a {text-decoration: none; color: blue;}
+      #callout-table a:visited {text-decoration: none; color: blue;}
+      #overview-table a {text-decoration: none; color: black;}
+      #overview-table a:visited {text-decoration: none; color: black;}
+      #callout-table a:hover, #overview-table a:hover {text-decoration: underline;}       
+      p.help-url { margin: 20px 0 5px 0; text-align: center; font-size: 80%; text-decoration: none }      
+      #switchtoggles { text-align: right; padding: 0 2px 0 0; font-size: 90%; } 
+      .sync-toc { color: #FFF; font-size: 8pt; font-weight: bold; display: none; }
+      .sync-toc a { color: #FFF; text-decoration: none; font-weight: bold;}
+      .sync-toc a:visited { color: #FFF; }
+      .sync-toc a:hover { text-decoration: underline; }
+      a.hmanchor { display: inline-block; margin-top: -4em; padding-top: 4em }	  
+   </style>
+   <style TYPE="text/css" media="print">
+      div#idheader, img.dropdown-toggle-icon, p.help-url { display:none } 
+   </style>
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="helpman_settings.js"></script>
+   <script type="text/javascript" src="helpman_topicinit.js"></script>
+
+
+
+</head>
+<body><script language="javascript">
+if (window.name != "content")
+    document.write("<center><a href='index.html?page=_resource_html_rpg26mjp.htm'>show framing</a></center>")
+</script>
+
+
+<div id="printheader"><h1 class="p_Heading1"><span class="f_Heading1">Conditional Branch</span></h1>
+</div>
+<div id="idheader">
+<div id="idheaderbg">
+<table style="width:100%;border:none;margin:0px;" cellspacing="0" cellpadding="0"> 
+  <tr>
+    <td class="topichead" style="text-align:left; vertical-align:bottom">
+      
+      <p class="crumbs"><b>Navigation:</b>&nbsp;
+      
+      <a href="_resource_html_rpg27f1b.htm">Events</a> &gt; <a href="_resource_html_rpg27f39.htm">Overview of Commands</a> &gt; <a href="_resource_html_rpg26pk3.htm">Event Command List</a>&nbsp;&gt;</p>
+   
+      <h1 class="p_Heading1"><span class="f_Heading1">Conditional Branch</span></h1>
+
+    </td>
+    <td class="topichead" id="idnav">
+      
+      <a href="_resource_html_rpg28a2c.htm" title="Previous Topic"><span class="hmbtnprev"></span></a>
+      <a href="_resource_html_rpg26pk3.htm" title="Parent Chapter"><span class="hmbtntop"></span></a>
+      <a href="_resource_html_rpg285vb.htm" title="Next Topic"><span class="hmbtnnext"></span></a>
+      
+    </td>
+  </tr>  
+</table>
+</div>
+</div>  
+
+<div id="idcontent"><div id="innerdiv">
+<!--ZOOMRESTART-->
+<p class="p_Normal" style="margin: 0.1458in 0px 0px 0px;"><a name="3okabue" class="hmanchor"></a><span style="font-size: 26pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">[Conditional Branch]</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><span style="font-size: 14pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold; text-decoration: underline;">Function</span></p>
+<p style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.1354in; margin: 0px 0px 0px 0px;"><span style="display:inline-block;width:0.1354in;margin-left:-0.1354in;font-size:11pt;font-family:'Symbol';font-style:normal;color:#000000;text-decoration:none;">&#183;</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Creates branching in the event content to provide handling when conditions are met.</span></p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><span style="font-size: 14pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold; text-decoration: underline;">Settings</span></p>
+<p style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.1354in; margin: 0px 0px 0px 0px;"><span style="display:inline-block;width:0.1354in;margin-left:-0.1354in;font-size:11pt;font-family:'Symbol';font-style:normal;color:#000000;text-decoration:none;">&#183;</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Choose the condition from the various options and specify their content (options are separated into [Tab 1] and [Tab 2]).</span></p><p style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.1354in; margin: 0px 0px 0px 0px;"><span style="display:inline-block;width:0.1354in;margin-left:-0.1354in;font-size:11pt;font-family:'Symbol';font-style:normal;color:#000000;text-decoration:none;">&#183;</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">If [Set handling when conditions do not apply] is enabled under [Option], a branch will be created for handling when the specified conditions are not met.</span></p><p class="p_Normal" style="margin: 0.1458in 0px 0px 0px;"><img alt="bm226" style="margin:0;width:4.8333in;height:4.4688in;border:none" src="bm226.gif"/></p>
+<p style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.1354in; margin: 0px 0px 0px 0px;"><span style="display:inline-block;width:0.1354in;margin-left:-0.1354in;font-size:11pt;font-family:'Courier New';font-style:normal;color:#000000;text-decoration:none;">&#111;</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">Switch</span></p><p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">The condition will be set based on the state of a switch. Click the [...] button to open the [Switches] window to specify a switch, and specify if the switch&#39;s state should be [ON] or [OFF].</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.1354in; margin: 0px 0px 0px 0px;"><span style="display:inline-block;width:0.1354in;margin-left:-0.1354in;font-size:11pt;font-family:'Courier New';font-style:normal;color:#000000;text-decoration:none;">&#111;</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">Variable</span></p><p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">The condition will be set based on the value stored in a variable. The variable to use (A), the value to compare it with (B) and the operator (C) are specified as follows. As an example, to set the condition Variable no. 1 is greater than 5, set A as 0001, B as the constant 5, and C as Greater than.</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">(A) Variable to use:</span></p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Click the [...] button to open the [Variables] window to specify the variable.</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">(B) Value to compare:</span></p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Specify using one of the following methods.</span></p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">Constant: </span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Compare with a constant value. Enter within the range of -999999~999999.</span></p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">Variable: </span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Compare with a value stored in a variable. Click the [...] button to open the [Variables] window to specify the variable.</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">(C) Operator:</span></p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">From the dropdown menu, choose the range that the variable should fit in from the 6 options below.</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Equal to: A = B</span></p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Greater than or equal to: A &#8807; B</span></p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Less than or equal to: A &#8806; B</span></p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Greater than: A &gt; B</span></p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Less than: A &lt; B</span></p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Not: A &#8800; B</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.1354in; margin: 0px 0px 0px 0px;"><span style="display:inline-block;width:0.1354in;margin-left:-0.1354in;font-size:11pt;font-family:'Courier New';font-style:normal;color:#000000;text-decoration:none;">&#111;</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">Timer 1</span></p><p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Uses the time remaining in Timer 1. Enter the comparison time in terms of [minutes][seconds], and specify if the timer&#39;s time should be [Greater than or equal to] or [Less than or equal to] this time.</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.1354in; margin: 0px 0px 0px 0px;"><span style="display:inline-block;width:0.1354in;margin-left:-0.1354in;font-size:11pt;font-family:'Courier New';font-style:normal;color:#000000;text-decoration:none;">&#111;</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">Timer 2</span></p><p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Uses the time remaining in Timer 2. Enter the comparison time in terms of [minutes][seconds], and specify if the timer&#39;s time should be [Greater than or equal to] or [Less than or equal to] this time.</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.1354in; margin: 0px 0px 0px 0px;"><span style="display:inline-block;width:0.1354in;margin-left:-0.1354in;font-size:11pt;font-family:'Courier New';font-style:normal;color:#000000;text-decoration:none;">&#111;</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">Money</span></p><p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Uses the current money in possession. Enter the amount of money to compare to, and specify if the possessed money should be [Greater than or equal to] or [Less than or equal to] this amount of money.</span></p>
+<p class="p_Normal" style="margin: 0.1458in 0px 0px 0px;"><img alt="bm227" style="margin:0;width:4.8333in;height:4.4688in;border:none" src="bm227.gif"/></p>
+<p style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.1354in; margin: 0px 0px 0px 0px;"><span style="display:inline-block;width:0.1354in;margin-left:-0.1354in;font-size:11pt;font-family:'Courier New';font-style:normal;color:#000000;text-decoration:none;">&#111;</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">Item</span></p><p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Uses a possessed item. Specify the item&#39;s name and whether it is [in Inventory] or [not in Inventory] using the respective dropdown lists. Items that are equipped on actors in the party are counted as [in Inventory].</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.1354in; margin: 0px 0px 0px 0px;"><span style="display:inline-block;width:0.1354in;margin-left:-0.1354in;font-size:11pt;font-family:'Courier New';font-style:normal;color:#000000;text-decoration:none;">&#111;</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">Actor</span></p><p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Uses an actor&#39;s status. Use the dropdown menu to specify the actor, and click the [...] button to specify the condition in the [Actor condition] window.</span></p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Specify the condition from the following.</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">~ is in the party</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">: Checks whether the actor is in the party.</span></p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">~&#39;s name is</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">: Checks the actor&#39;s name. Enter the name condition in the form control.</span></p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">~&#39;s level is</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">: Checks whether the actor has reached a particular level. Enter the level condition.</span></p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">~&#39;s HP is</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">: Checks whether the actor&#39;s HP is above a certain value. Enter the HP value condition.</span></p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">~ &#39;s skill:</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;"> Checks whether the actor can use a particular skill. Choose the skill from the dropdown menu.</span></p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">~ &#39;s item</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">: Checks whether the actor has a particular item equipped. Choose the item from the dropdown menu.</span></p>
+<p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">~ &#39;s state:</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;"> Checks whether the actor is afflicted by a particular status effect. Choose the status effect from the dropdown menu.</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.1354in; margin: 0px 0px 0px 0px;"><span style="display:inline-block;width:0.1354in;margin-left:-0.1354in;font-size:11pt;font-family:'Courier New';font-style:normal;color:#000000;text-decoration:none;">&#111;</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">Character</span></p><p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Uses the character&#39;s facing direction. Choose the character and the facing direction from the dropdown menu.</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.1354in; margin: 0px 0px 0px 0px;"><span style="display:inline-block;width:0.1354in;margin-left:-0.1354in;font-size:11pt;font-family:'Courier New';font-style:normal;color:#000000;text-decoration:none;">&#111;</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">Vehicle</span></p><p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Uses the current vehicle. Specify the vehicle using the dropdown menu.</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.1354in; margin: 0px 0px 0px 0px;"><span style="display:inline-block;width:0.1354in;margin-left:-0.1354in;font-size:11pt;font-family:'Courier New';font-style:normal;color:#000000;text-decoration:none;">&#111;</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">Event was triggered by decision key</span></p><p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Checks whether the select key was used to start this event.</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0.1354in; margin: 0px 0px 0px 0px;"><span style="display:inline-block;width:0.1354in;margin-left:-0.1354in;font-size:11pt;font-family:'Courier New';font-style:normal;color:#000000;text-decoration:none;">&#111;</span><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif; font-weight: bold;">Current BGM has completed a loop</span></p><p class="p_Normal"><span style="font-size: 11pt; font-family: 'Times New Roman',Times,Georgia,serif;">Checks if the BGM has been played for the duration of one loop.</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+
+<!--ZOOMSTOP-->
+</div></div>
+<script type="text/javascript">
+
+  $(document).ready(function(){
+    $(window).bind('resize', function() {
+      var y = $('#idheader').height(); 
+      $('#idcontent').css('margin-top', y);
+      var par = window.parent;
+      if ($( par ).width() <= $( window ).width()+20) {
+        $('#idheader').css('position', 'relative');
+        $('#idcontent').css('margin-top', 0);
+        $('#idbacktotop').css('display', 'block');
+        $('.hmanchor').css('margin-top', -20);
+	$('.hmanchor').css('padding-top', 20);
+      }
+      else {
+        $('#idheader').css('position', 'fixed');
+        $('#idcontent').css('margin-top', $('#idheader').height());
+        $('#idbacktotop').css('display', 'none');
+        $('.hmanchor').css('margin-top', -y-20);
+	$('.hmanchor').css('padding-top', y+20);
+      }
+    });
+    
+    $(window).resize(); //trigger event for initially small displays
+  });
+
+
+</script>
+</body>
+</html>
