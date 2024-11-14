@@ -9,3 +9,6 @@ find . -type f -name "*.htm" -exec sh -c '
   iconv --from-code=ISO-8859-1 --to-code=UTF-8 -- "$f" > "$f".tmp
   mv -v -- "$f".tmp "$f"
   ' \;
+
+# Delete all files starting with # cause they break Netlify
+find . -type f -name "#*" -exec rm -f {} \;
